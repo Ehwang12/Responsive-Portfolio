@@ -387,6 +387,14 @@ body {
     #main-container {
       padding-top: 18%;
     }
+
+    .auth-image {
+      float: none;
+      width: 100%;
+      height: auto;
+      margin: 5% auto;
+
+    }
   }
 
   
