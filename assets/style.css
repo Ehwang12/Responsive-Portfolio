@@ -222,6 +222,17 @@ body {
 
   @media screen and (max-width: 980px) {
     
+    #masthead {
+      position: fixed;
+      z-index: 99;
+      width: 100%;
+      margin: 0 0 30px;
+      overflow: auto;
+      color: #ffffff;
+      background: #ffffff;
+      border-bottom: 2px solid #cccccc;
+    }
+
     #logo {
         float: left;
         width: 25.6%;
@@ -229,9 +240,15 @@ body {
         font-size: 1.67em;
         font-weight: 700;
         line-height: 300%;
-        margin-left: 2%;
+        margin-left: 3%;
       }
     
+      nav {
+        float: right;
+        margin-top: 25px;
+        margin-right: 2%;
+      }
+
     h1,
     h2,
     h3,
@@ -246,7 +263,7 @@ body {
       
       .main-section {
         width: 100%;
-        max-width: 70%;
+        max-width: 65%;
         padding: 3%;
         margin-left: 3%;
       }
@@ -256,14 +273,18 @@ body {
         border-top: .81% solid #4aaaa5;
         height: 5%;
       }
-      
-      h3, h2 {
-        padding-bottom: 20px;
-        margin-bottom: 15px;
-        line-height: 22px;
-        border-bottom: 2px solid #eeeeee;
-      }
-        
+     /* --- portfolio page-----*/
+
+     .work {
+      width: 49%;
+      margin: 3% 0 4%;
+    }
+     
+     .work:nth-child(even) {
+      margin-right: 2%;
+    }
+
+    
   }
 
   @media screen and (max-width: 768px) {
