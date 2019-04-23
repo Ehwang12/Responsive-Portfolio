@@ -235,12 +235,12 @@ body {
 
     #logo {
         float: left;
-        width: 25.6%;
+        width: 23.6%;
         height: 9.2%;
         font-size: 1.67em;
         font-weight: 700;
-        line-height: 300%;
-        margin-left: 3%;
+        line-height: 200%;
+        margin-left : 3%;
       }
     
       nav {
@@ -283,14 +283,62 @@ body {
      .work:nth-child(even) {
       margin-right: 2%;
     }
-
-    
   }
 
   @media screen and (max-width: 768px) {
+
+    #logo {
+      float: left;
+      width: 28%;
+      height: 9.2%;
+      font-size: 1.67em;
+      font-weight: 700;
+      line-height: 300%;
+      margin-left: 3%;
+    }
+
+    nav {
+      float: right;
+      margin-top: 1.6%;
+      margin-right: 4%;
+    }
+    
+    .main-section {
+      width: 100%;
+      max-width: 95%;
+      padding: 3%;
+      margin-left: 3%;
+    }
+    
+    #main-container {
+      padding-top: 18%;
+    }
+
+    /*--- Portfolio page ----*/
+    .work2 {
+      /* float: right; */
+    }
+    .work {
+      width: 50%;
+      margin: 3% 0 auto;
+    }
+     
+     .work:nth-child(even) {
+      margin-right: 0;
+    }
   }
 
   @media screen and (max-width: 640px) {
+    
+    #logo {
+      float: left;
+      width: 33%;
+      height: 9.2%;
+      font-size: 1.67em;
+      font-weight: 700;
+      line-height: 300%;
+      margin-left: 3%;
+    }
 
   }
 
