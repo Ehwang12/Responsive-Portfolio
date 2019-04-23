@@ -395,6 +395,11 @@ body {
       margin: 5% auto;
 
     }
+    /*------Portfolio------*/
+    .work {
+      width: 45%;
+      margin: 3% 3% auto;
+    }
   }
 
   
